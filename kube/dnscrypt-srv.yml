@@ -6,8 +6,8 @@ metadata:
 spec:
   ports:
     - protocol: TCP
-      port: 443
-      targetPort: 443
+      port: 4443
+      targetPort: 4443
   selector:
     service: dnscrypt
   type: LoadBalancer
@@ -21,8 +21,8 @@ metadata:
 spec:
   ports:
     - protocol: UDP
-      port: 443
-      targetPort: 443
+      port: 4443
+      targetPort: 4443
   selector:
     service: dnscrypt
   type: LoadBalancer
