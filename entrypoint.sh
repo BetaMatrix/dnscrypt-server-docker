@@ -96,7 +96,7 @@ initialize the container for a server accessible at ip <external ip> on port
 <port>, for a provider named <provider_name>. This is required only once.
 
 * start (default command): start the resolver and the dnscrypt server proxy.
-Ports 443/udp and 443/tcp have to be publicly exposed.
+Ports 4443/udp and 4443/tcp have to be publicly exposed.
 
 * provider-info: prints the provider name and provider public key.
 
